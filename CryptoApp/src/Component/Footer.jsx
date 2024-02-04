@@ -20,8 +20,7 @@ const Footer = () => {
             letterSpacing={"widest"}
             textAlign={["center", "left"]}
           >
-            We are the best crypto trading app in India, we provide our guidance
-            at a very cheap price.
+            Introducing CryptoNest, your all-in-one solution for managing and securing your digital assets. With a sleek interface, real-time market data, and robust security features, CryptoNest makes crypto management a breeze. Instant transactions, multi-wallet support, and personalized alerts ensure you stay ahead in the fast-paced world of cryptocurrencies. Download CryptoNest now and experience the future of hassle-free crypto management.
           </Text>
         </VStack>
 

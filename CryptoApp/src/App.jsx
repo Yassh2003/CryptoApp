@@ -5,6 +5,7 @@ import Coins from "./Component/Coins"
 import Exchanges from "./Component/Exchanges"
 import CoinDetails from "./Component/CoinDetails"
 import Footer from "./Component/Footer"
+import Blog from "./Component/Blog"
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
         <Route path="/coins" element = {<Coins/>}/>
         <Route path="/exchanges" element = {<Exchanges/>}/>
         <Route path="/coin/:id" element = {<CoinDetails/>}/>
+        <Route path="/blog" element = {<Blog/>}/>
       </Routes>
       <Footer/>
     </Router>

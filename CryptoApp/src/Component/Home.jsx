@@ -1,11 +1,13 @@
-import { Box, Image, Text } from "@chakra-ui/react";
+import { Box, HStack, Image, Text, VStack } from "@chakra-ui/react";
 import React from "react";
 import btcSrc from "../assets/btc.png";
 import { motion } from "framer-motion";
+import Card from "./Cardd";
 
 const Home = () => {
   return (
-    <Box bgColor={"blackAlpha.900"} w={"full"} h={"full"}>
+    <Box  w={"full"} h={"full"} zIndex={"-1"} display={"flex"} justifyContent={"space-around"} flexWrap={"wrap"}>
+      <VStack>
       <motion.div
         style={{
           height: "80vh",
@@ -31,11 +33,12 @@ const Home = () => {
         fontSize={"6xl"}
         textAlign={"center"}
         fontWeight={"800"}
-        color={"whiteAlpha.700"}
-        mt={"-20"}
+        mt={"-21"}
       >
         CryptoNest
       </Text>
+      </VStack>
+      <Card />
     </Box>
   );
 };
