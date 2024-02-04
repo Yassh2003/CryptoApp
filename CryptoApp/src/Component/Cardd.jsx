@@ -5,7 +5,7 @@ import Card1Src from "../assets/cardImg1.png";
 
 function Cardd() {
   return (
-<Card maxW={{base:"100%", md:"40vw"}} maxH={"80vh"} marginTop={"20px"} marginBottom={{base:"20px"}}>
+<Card maxW={{base:"100%", md:"40vw"}} maxH={"80vh"} marginTop={"20px"} marginBottom={{base:"20px"}} borderWidth='10px'>
   <CardBody>
     <Image
     maxW={"17vw"}

@@ -23,17 +23,17 @@ const Home = () => {
       >
         <Image
           w={"full"}
-          h={"70vh"}
+          h={"68vh"}
           objectFit={"contain"}
           src={btcSrc}
         />
       </motion.div>
 
       <Text
-        fontSize={"6xl"}
+        fontSize={"5xl"}
         textAlign={"center"}
         fontWeight={"800"}
-        mt={"-21"}
+        mt={"-20"}
       >
         CryptoNest
       </Text>
